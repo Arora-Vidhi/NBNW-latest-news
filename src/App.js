@@ -1,25 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import News from './components/News';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  	return (
+  	  	<>
+  	  	  	<Navbar/>
+  	  	  	<News pageSize={6} apiKey="aa710c6bfa5d4cca9b0ac33c89686ec0" country="us" category="science"/>
+  	  	</>
+  	);
 }
 
 export default App;
