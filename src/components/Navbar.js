@@ -19,7 +19,7 @@ export class Navbar extends Component {
                     <li className="nav-item">
                         <a className="nav-link" href="https://www.linkedin.com/company/nbnw-org/about/?viewAsMember=true">Contact Us</a>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a className="dropdown-item" href="#">Action</a>
@@ -27,15 +27,15 @@ export class Navbar extends Component {
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </li>
-                    <li className="nav-item">
+                    </li> */}
+                    {/* <li className="nav-item">
                         <a className="nav-link disabled" href="#">Disabled</a>
-                    </li>
+                    </li> */}
                 </ul>
-                <form className="form-inline my-2 my-lg-0">
+                {/* <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
                     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> */}
             </div>
         </nav>
     )
